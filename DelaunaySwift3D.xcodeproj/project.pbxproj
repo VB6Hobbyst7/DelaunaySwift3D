@@ -10,10 +10,10 @@
 		231993962161C4C700B69662 /* DelaunaySwift3D.h in Headers */ = {isa = PBXBuildFile; fileRef = 231993942161C4C700B69662 /* DelaunaySwift3D.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		231993A52161C58B00B69662 /* DelaunaySwift3D_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 231993A32161C58B00B69662 /* DelaunaySwift3D_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		231993AB2161C68E00B69662 /* Delaunay3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231993AA2161C68E00B69662 /* Delaunay3D.swift */; };
-		231993AD2161C6D800B69662 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231993AC2161C6D800B69662 /* Vertex.swift */; };
-		231993AF2161C70300B69662 /* Circumcircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231993AE2161C70300B69662 /* Circumcircle.swift */; };
-		231993B12161C72400B69662 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231993B02161C72400B69662 /* Edge.swift */; };
-		231993B32161C75100B69662 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231993B22161C75100B69662 /* Triangle.swift */; };
+		231993AD2161C6D800B69662 /* Vertex3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231993AC2161C6D800B69662 /* Vertex3D.swift */; };
+		231993AF2161C70300B69662 /* Circumcircle3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231993AE2161C70300B69662 /* Circumcircle3D.swift */; };
+		231993B12161C72400B69662 /* Edge3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231993B02161C72400B69662 /* Edge3D.swift */; };
+		231993B32161C75100B69662 /* Triangle3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231993B22161C75100B69662 /* Triangle3D.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +24,10 @@
 		231993A32161C58B00B69662 /* DelaunaySwift3D_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelaunaySwift3D_iOS.h; sourceTree = "<group>"; };
 		231993A42161C58B00B69662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		231993AA2161C68E00B69662 /* Delaunay3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delaunay3D.swift; sourceTree = "<group>"; };
-		231993AC2161C6D800B69662 /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
-		231993AE2161C70300B69662 /* Circumcircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circumcircle.swift; sourceTree = "<group>"; };
-		231993B02161C72400B69662 /* Edge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
-		231993B22161C75100B69662 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		231993AC2161C6D800B69662 /* Vertex3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex3D.swift; sourceTree = "<group>"; };
+		231993AE2161C70300B69662 /* Circumcircle3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circumcircle3D.swift; sourceTree = "<group>"; };
+		231993B02161C72400B69662 /* Edge3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edge3D.swift; sourceTree = "<group>"; };
+		231993B22161C75100B69662 /* Triangle3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle3D.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,10 +89,10 @@
 			isa = PBXGroup;
 			children = (
 				231993AA2161C68E00B69662 /* Delaunay3D.swift */,
-				231993AC2161C6D800B69662 /* Vertex.swift */,
-				231993AE2161C70300B69662 /* Circumcircle.swift */,
-				231993B02161C72400B69662 /* Edge.swift */,
-				231993B22161C75100B69662 /* Triangle.swift */,
+				231993AC2161C6D800B69662 /* Vertex3D.swift */,
+				231993AE2161C70300B69662 /* Circumcircle3D.swift */,
+				231993B02161C72400B69662 /* Edge3D.swift */,
+				231993B22161C75100B69662 /* Triangle3D.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -213,11 +213,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				231993AF2161C70300B69662 /* Circumcircle.swift in Sources */,
+				231993AF2161C70300B69662 /* Circumcircle3D.swift in Sources */,
 				231993AB2161C68E00B69662 /* Delaunay3D.swift in Sources */,
-				231993B32161C75100B69662 /* Triangle.swift in Sources */,
-				231993B12161C72400B69662 /* Edge.swift in Sources */,
-				231993AD2161C6D800B69662 /* Vertex.swift in Sources */,
+				231993B32161C75100B69662 /* Triangle3D.swift in Sources */,
+				231993B12161C72400B69662 /* Edge3D.swift in Sources */,
+				231993AD2161C6D800B69662 /* Vertex3D.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

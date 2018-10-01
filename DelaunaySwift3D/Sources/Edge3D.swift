@@ -1,5 +1,5 @@
 //
-//  Edge.swift
+//  Edge3D.swift
 //  DelaunaySwift3D_macOS
 //
 //  Created by Yota Odaka on 2018/10/01.
@@ -8,19 +8,19 @@
 
 import Cocoa
 
-struct Edge {
-    let vertex1: Vertex
-    let vertex2: Vertex
+struct Edge3D {
+    let vertex1: Vertex3D
+    let vertex2: Vertex3D
 }
 
-extension Edge: Equatable {}
+extension Edge3D: Equatable {}
 
-func ==(lhs: Edge, rhs: Edge) -> Bool {
+func ==(lhs: Edge3D, rhs: Edge3D) -> Bool {
     return lhs.vertex1 == rhs.vertex1 && lhs.vertex2 == rhs.vertex2 || lhs.vertex1 == rhs.vertex2 && lhs.vertex2 == rhs.vertex1
 }
 
-extension Edge: Hashable {
+extension Edge3D: Hashable {
     var hashValue: Int {
-        return "\(vertex1.x)\(vertex1.y)\(vertex2.x)\(vertex2.y)".hashValue
+        return "\(vertex1.x)\(vertex1.y)\(vertex1.z)\(vertex2.x)\(vertex2.y)\(vertex2.z)".hashValue
     }
 }
